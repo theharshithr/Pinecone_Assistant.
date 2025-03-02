@@ -25,9 +25,10 @@ Ever struggled with digging through long PDFs to find the exact information you 
 Clone the repo and follow the installation steps to set up your own PDF assistant.  
 
 ```bash
-git clone
+git clone  https://github.com/theharshithr/Pinecone_Assistant.
 cd Pinecone_Assistant.ipynb
-pip install -r requirements.txt
+pip install -r requirements.txt (In this case if you use ur libraries external use this method)
+.env (add a line load dotenv() when u want to send API_KEYS from a different environment file and access it in coding env)
 python app.py
 ```
 ## 🤝 Contributing  
